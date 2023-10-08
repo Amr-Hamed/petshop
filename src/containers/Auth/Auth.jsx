@@ -1,19 +1,7 @@
 import React from 'react';
-import {Button, Text} from 'react-native';
-import Locale from '../../localization';
 
 function Auth() {
-  return (
-    <>
-      <Button
-        title="change lang"
-        onPress={() => {
-          Locale.setLanguage('AR');
-        }}
-      />
-      <Text>{Locale.t('account')}</Text>
-    </>
-  );
+  return <></>;
 }
 
 export default Auth;
